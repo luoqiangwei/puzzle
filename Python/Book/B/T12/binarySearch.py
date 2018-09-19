@@ -1,5 +1,5 @@
 def binarySearch(T, x):
-    l = 1
+    l = 0
     r = len(T) - 1
     while l < r:
         m = int((l + r) / 2)
