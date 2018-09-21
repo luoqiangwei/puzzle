@@ -1,3 +1,4 @@
+// 动态规划 dynamic programming approach
 #include <stdio.h>
 
 int fib(int n);

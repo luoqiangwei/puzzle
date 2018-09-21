@@ -1,3 +1,4 @@
+// 分治算法
 #include <stdio.h>
 
 int fib(int n)
