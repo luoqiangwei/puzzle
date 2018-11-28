@@ -8,7 +8,7 @@ void disppath(char path[], int d)
 {
     printf(" 输出一个子集: {");
     for(int i = 0; i < d; i++)
-        printf("%d, ", path[i]);
+        printf("%c, ", path[i]);
     if(d >= 0) printf("%c", path[d]);
     printf("}\n");
 }
