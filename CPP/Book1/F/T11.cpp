@@ -4,7 +4,7 @@
 using namespace std;
 
 #define min(x, y) ((x) < (y) ? (x) : (y))
-#define MAXN 100
+#define MAXN 5
 
 int solve(char str[], int n)
 {
