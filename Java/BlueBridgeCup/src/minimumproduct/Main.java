@@ -1,13 +1,26 @@
+package minimumproduct;
+
 import java.util.Arrays;
+import java.util.Scanner;
 import java.util.stream.IntStream;
 
-public class MinimumProduct {
+public class Main {
+
     public static void main(String[] args){
-//        int[] A = {1, 3, -5};
-//        int[] B = {-2, 4, 1};
-        int[] A = {1, 2, 3, 4, 5};
-        int[] B = {1, 0, 1, 0, 1};
-        System.out.println(min(A, B));
+        Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt();
+        while(N-- != 0){
+            int n = scanner.nextInt();
+            int[] A = new int[n];
+            int[] B = new int[n];
+            for(int i = 0; i < n; i++){
+                A[i] = scanner.nextInt();
+            }
+            for(int i = 0; i < n; i++){
+                B[i] = scanner.nextInt();
+            }
+            System.out.println(min(A, B));
+        }
     }
 
     public static int min(int[] A, int[] B){
