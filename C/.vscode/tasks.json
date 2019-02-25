@@ -9,7 +9,7 @@
             "command": "gcc",
             "args": [
                 "-g",
-                "-fexec-charset=gbk",
+                // "-fexec-charset=gbk",
                 "\"${file}\"",
                 "-o",
                 "\"${fileDirname}\\${fileBasenameNoExtension}.exe\"",
