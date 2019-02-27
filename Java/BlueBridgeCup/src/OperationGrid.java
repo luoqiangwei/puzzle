@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class OperationGrid {
@@ -16,9 +17,9 @@ public class OperationGrid {
             if(a == 1){
                 N[b-1] = c;
             }else if(a == 2){
-                int result = 0;
+                BigInteger result = new BigInteger("0");
                 for(int j = b - 1; j < c; j++){
-                    result += N[j];
+                    result = result.add(BigInteger.valueOf(N[j]));
                 }
                 System.out.println(result);
             }else{
